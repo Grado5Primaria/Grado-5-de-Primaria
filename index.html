@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grado 5 - Institución Educativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #800020; /* Vinotinto */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+        header img {
+            width: 100px;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            width: 80%;
+            margin: 80px auto 20px; /* Ajuste para la barra de navegación */
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 1s forwards;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Institución">
+        <h1>Bienvenidos al Grado 5</h1>
+        <p>Institución Educativa Santa Catalina</p>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#miembros">Miembros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="inicio">
+            <h2>Bienvenidos al grado quinto de la Institución Educativa Santa Catalina de Bello</h2>
+            <p>La Institución Educativa Santa Catalina de Bello es un centro educativo que se enfoca en brindar una educación integral y de calidad a nuestros estudiantes. En el grado quinto, nuestros estudiantes continúan desarrollando habilidades y conocimientos en diversas áreas, incluyendo:</p>
+            <ul>
+                <li><strong>Lengua Castellana:</strong> Desarrollo de habilidades de lectura, escritura y comunicación efectiva.</li>
+                <li><strong>Matemáticas:</strong> Desarrollo de habilidades de cálculo, resolución de problemas y razonamiento lógico.</li>
+                <li><strong>Ciencias Naturales:</strong> Estudio de la biología, la química y la física, con énfasis en la experimentación y la investigación.</li>
+                <li><strong>Ciencias Sociales:</strong> Estudio de la historia, la geografía y la civics, con énfasis en la comprensión de la sociedad y la cultura.</li>
+                <li><strong>Educación Física:</strong> Desarrollo de habilidades físicas y deportivas, con énfasis en la salud y el bienestar.</li>
+                <li><strong>Educación Artística:</strong> Desarrollo de habilidades artísticas y creativas, con énfasis en la expresión y la comunicación.</li>
+            </ul>
+        </section>
+        <section id="actividades">
+            <h2>Objetivos del grado quinto</h2>
+            <ul>
+                <li>Desarrollar habilidades de pensamiento crítico y resolución de problemas.</li>
+                <li>Fomentar la curiosidad y el amor por el aprendizaje.</li>
+                <li>Desarrollar habilidades de comunicación efectiva y trabajo en equipo.</li>
+                <li>Preparar a los estudiantes para el éxito en la educación secundaria y más allá.</li>
+            </ul>
+            <h2>Actividades y proyectos</h2>
+            <ul>
+                <li>Proyectos de investigación y presentación en diversas áreas del currículo.</li>
+                <li>Actividades de servicio comunitario y voluntariado.</li>
+                <li>Eventos culturales y artísticos.</li>
+                <li>Competencias deportivas y recreativas.</li>
+            </ul>
+        </section>
+        <section id="miembros">
+            <h2>Equipo docente</h2>
+            <p>Nuestro equipo docente está comprometido con brindar una educación de calidad y apoyo a nuestros estudiantes. Conoce a nuestros docentes:</p>
+            <ul>
+                <li>Gloria</li>
+                <li>Diego</li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta o inquietud sobre el grado quinto, no dudes en contactarnos:</p>
+            <ul>
+                <li><strong>Correo electrónico:</strong> quintossanta@gmail.com</li>
+                <li><strong>Teléfono:</strong> 275 64 98</li>
+                <li><strong>Dirección:</strong> Cl. 56 #4614</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Institución Educativa Santa Catalina | Grado 5</p>
+    </footer>
+</body>
+</html>
